@@ -36,7 +36,6 @@ public class MyThirdServlet extends HttpServlet {
     	        out.println("<body>");
     	        out.println("<h3>Request Information Example</h3>");
     	        out.println("Method: " + request.getMethod());
-    	        out.println("\n");
     	        out.println("Request URI: " + request.getRequestURI());
     	        out.println("Protocol: " + request.getProtocol());
     	        out.println("PathInfo: " + request.getPathInfo());
