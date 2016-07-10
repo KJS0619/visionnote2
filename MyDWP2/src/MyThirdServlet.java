@@ -1,15 +1,13 @@
 
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.*;
-import java.util.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
 /**
  * Servlet implementation class MyThirdServlet
  */
@@ -38,6 +36,7 @@ public class MyThirdServlet extends HttpServlet {
     	        out.println("<body>");
     	        out.println("<h3>Request Information Example</h3>");
     	        out.println("Method: " + request.getMethod());
+    	        out.println("\n");
     	        out.println("Request URI: " + request.getRequestURI());
     	        out.println("Protocol: " + request.getProtocol());
     	        out.println("PathInfo: " + request.getPathInfo());
