@@ -1,7 +1,7 @@
 
 public class TypeTwo {
 	public void sayHello() { 
-		System.out.println("¾È³çÇÏ¼¼¿ä. TypeTwoÀÇ SayHelloÀÔ´Ï´Ù.");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš” TypeTwoì˜ SayHelloì…ë‹ˆë‹¤. ");
 	}
 	public static void main(String args[]) {
 		TypeTwo t = new TypeTwo();
